@@ -4,6 +4,8 @@ const mongoose = require('mongoose')
 const User = require('./model/user')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
+// const nodemailer = require('nodemailer')
+
 const JWT_SECRET = 'sdfsnvlkfjlsvnfdndklnbklnvdsvdvknkldndklvsnknskdndlnlvns'
 const app = express()
 app.use('/', express.static(path.join(__dirname, 'views')))
